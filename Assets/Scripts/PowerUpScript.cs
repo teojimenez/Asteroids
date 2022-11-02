@@ -18,12 +18,12 @@ public class PowerUpScript : MonoBehaviour
 
     void Update()
     {
-        if (GameManager.instance.puntuacion >= 7500)
+        if (GameManager.instance.puntuacion >= 10000)
         {
             CannonSimple.SetActive(false);
             CannonDouble.SetActive(true);
         }
-        if (GameManager.instance.puntuacion >= 20000)
+        if (GameManager.instance.puntuacion >= 35000)
         {
             CannonSimple.SetActive(false);
             CannonDouble.SetActive(false);

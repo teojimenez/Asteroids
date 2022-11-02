@@ -12,8 +12,8 @@ public class PlayerMovement : MonoBehaviour
     SpriteRenderer sprite;
     public SpriteRenderer inmortal1;
     public GameObject inmortal;
-    private float speed = 600;
-    private float rotSpeed = -300;
+    private float speed = 650;
+    private float rotSpeed = -360;
     public GameObject bullet;
     public GameObject spawnBullet;
     public GameObject ParticulasMuerte;
