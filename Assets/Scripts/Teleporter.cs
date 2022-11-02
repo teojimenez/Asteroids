@@ -5,17 +5,8 @@ using UnityEngine.UIElements;
 
 public class Teleporter : MonoBehaviour
 {
-    private float limiteX = 13;
-    private float limiteY = 23;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    private float limiteX = 9.2f;
+    private float limiteY = 5.5f;
     void Update()
     {
         if (transform.position.y > limiteY ) 

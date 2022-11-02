@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Asteroid
+  - PowerUpEscudo
+  - PowerUp
+  - Bullet
+  - GameManager
   layers:
   - Default
   - TransparentFX
@@ -11,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Fondo
   - 
   - 
   - 
@@ -40,4 +45,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: fondo
+    uniqueID: 2490462193
+    locked: 0
+  - name: corales
+    uniqueID: 2701094763
+    locked: 0
+  - name: corales2
+    uniqueID: 1682873579
+    locked: 0
+  - name: titulo
+    uniqueID: 960119111
+    locked: 0
+  - name: asteroides
+    uniqueID: 902145689
     locked: 0
